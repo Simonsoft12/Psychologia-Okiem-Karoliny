@@ -535,6 +535,23 @@ h1.special4.afb {
 }
 
 
+h1.special44 {
+  position: relative;
+}
+h1.special44:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 165px;
+  height: 4px;
+  background: linear-gradient(to right, transparent 0%, #ffc451 15%, #ffc451 43%, #ffc451 43%, #ffc451 57%, #ffc451 57%, #ffc451 85%, transparent 100%);
+}
+h1.special44.about {
+  position: absolute;
+  top: 120%;
+}
 
 h1.special {
   position: relative;
@@ -609,10 +626,31 @@ h1.special5:after {
   background: linear-gradient(to right, #F6F7FA 0%, #ffc451 15%, #ffc451 43%, #ffc451 43%, #ffc451 57%, #ffc451 57%, #ffc451 85%, #F6F7FA 100%);
 }
 
-h1.special5:after {
+h1.special55:after {
   position: absolute;
   top: 120%;
 }
+
+
+h1.special55 {
+  position: relative;
+}
+h1.special55:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 165px;
+  height: 4px;
+  background: linear-gradient(to right, transparent 0%, #ffc451 15%, #ffc451 43%, #ffc451 43%, #ffc451 57%, #ffc451 57%, #ffc451 85%, transparent 100%);
+}
+
+h1.special55:after {
+  position: absolute;
+  top: 120%;
+}
+
 
 /* */
 

@@ -534,6 +534,10 @@ h1.special4.afb {
   top: 130%;
 }
 
+.cursor-pointer{
+  cursor:pointer;
+}
+
 
 h1.special44 {
   position: relative;
@@ -568,7 +572,7 @@ h1.special:after {
 }
 h1.special:after {
   position: absolute;
-  top: 120%;
+  top: 135%;
 }
 
 /* */

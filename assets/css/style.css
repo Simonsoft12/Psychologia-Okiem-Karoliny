@@ -313,6 +313,13 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
+.mt-60{
+  margin-top:60px!important;
+}
+.mt-50{
+  margin-top:50px!important;
+}
+
 .spn2{
   display:none!important;
 }
@@ -4911,6 +4918,10 @@ section {
       border-color: #32cca0;
       background: #fff;
     }
+
+    .text-center{
+      text-align: center!important;
+    }
     
     .cta-btn24x {
 
@@ -4918,7 +4929,7 @@ section {
       font-size: 20px;
       letter-spacing: 1px;
       display: inline-block;
-      padding: 12px 34px;
+      padding: 8px 34px;
       border-radius: 80px;
       transition: 0.5s;
       border: 2px solid #ffbb38;

@@ -4918,11 +4918,22 @@ section {
       border-color: #32cca0;
       background: #fff;
     }
-
+    .div-wrapper {
+      position: relative;
+      height: 940px;
+  }
+  
+  .div-wrapper img {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+  }
     .text-center{
       text-align: center!important;
     }
-    
+    .pura1{
+      font-weight: bold;
+    }
     .cta-btn24x {
 
       font-weight: 600;

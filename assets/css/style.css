@@ -785,6 +785,17 @@ h1.special55:after {
   width: 116%;  
   z-index: 4;
 }
+.colorWhite{
+  color:#fff;
+}
+.overlay413 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Czarny overlay z przezroczystością 50% */
+}
 
 .overlay {
   bottom: 0; 
@@ -6485,6 +6496,44 @@ section {
   box-shadow: 0 0 20px #eee;
   border-radius: 4px;
  }
+
+ .gradient22 {
+  background-image: linear-gradient(to right, #ffc451, #ffa900, #ffd300, #fbb11f);
+  box-shadow: 0 4px 15px 0 #ffb930;
+  width:200px!important;
+}
+.row.align-items-center {
+  display: flex;
+  align-items: center;
+}
+.btn-contact56 {
+  margin-top: 1%;
+  font-size: 16px!important;
+  width: 100%;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 30px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out; 
+  border-radius: 30px;
+}
+.btn-contact56:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  color:#fff;
+  cursor: pointer;
+}
 
 .btn-contact {
   margin-top: 1%;

@@ -796,7 +796,15 @@ h1.special55:after {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5); /* Czarny overlay z przezroczystością 50% */
 }
-
+.half-half-image-text2 .content {
+  height: 100%;
+  align-items: center;
+}
+.half-half-image-text2 .img {
+  min-height: 780px;
+  height: 100%;
+  border-radius: 10px;
+}
 .overlay {
   bottom: 0; 
   width: 100%;
@@ -4826,6 +4834,14 @@ section {
   content: "→";
   font-size:40px;
   color: white;
+  }
+  .mt-35{
+    margin-top:35px
+  }
+
+  .lisup{
+    display: flex; align-items: center;margin:20px 0;
+    padding: 0;
   }
 /* ------------------------------------------------- */
 

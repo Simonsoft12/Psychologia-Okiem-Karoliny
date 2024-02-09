@@ -4843,6 +4843,15 @@ section {
     display: flex; align-items: center;margin:20px 0;
     padding: 0;
   }
+  .bio{
+    border: 2px solid #3cf3dc!important;
+    background: #21e3ca!important;
+    box-shadow: 0 4px 15px 0 rgb(33 227 202 / 75%)!important;
+  }
+  .bat2:hover{
+    background: rgba(0,118,255,0.9)!important;
+    box-shadow: 0 6px 20px rgb(0 118 255 / 23%)!important;
+}
 /* ------------------------------------------------- */
 
 /* ------------------------------------------------- */

@@ -4839,6 +4839,12 @@ section {
     margin-top:35px
   }
 
+  .hzakres{
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+  }
+
   .lisup{
     display: flex; align-items: center;margin:20px 0;
     padding: 0;

@@ -4845,6 +4845,11 @@ section {
     
   }
 
+  .h1c{
+    font-size: 28px;
+    font-weight: 700;
+  }
+
   .lisup{
     display: flex; align-items: center;margin:20px 0;
     padding: 0;
@@ -4998,6 +5003,27 @@ section {
     .cta-btn24x:hover {
       color:#f8b538;
       border-color: #ffc451;
+      background: #fff;
+    }
+
+    .cta-btn232x {
+
+      font-weight: 600;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 8px 28px;
+      border-radius: 80px;
+      transition: 0.5s;
+      border: 2px solid #3cf3dc;
+      color: #fff;
+      background: #21e3ca;
+      box-shadow:0 4px 15px 0 rgb(33 227 202 / 75%); 
+    }
+    
+    .cta-btn232x:hover {
+      color:#21e3ca;
+      border-color: #3cf3dc;
       background: #fff;
     }
     

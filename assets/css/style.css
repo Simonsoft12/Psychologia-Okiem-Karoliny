@@ -500,6 +500,28 @@ h1.speciala:after {
 
 /* */
 
+
+h1.special343 {
+  position: relative;
+}
+
+h1.special343:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width:165px;
+  height: 4px;
+  background: linear-gradient(to right, #fff 0%, #ffc451 15%, #ffc451 43%, #ffc451 43%, #ffc451 57%, #ffc451 57%, #ffc451 85%, #fff 100%);
+}
+
+h1.special343:after {
+  position: absolute;
+  top: 120%;
+}
+
+
 h1.special3 {
   position: relative;
 }

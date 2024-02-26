@@ -5094,7 +5094,9 @@ section {
       background: #2590eb;
       box-shadow: 0 4px 15px 0 rgb(65 132 234 / 75%); 
     }
-    
+    .mt-25{
+      margin-top:25px;
+    }
     .btnKimJestem:hover {
       /* color:#eb2e90;
       border-color: #eb2e90;

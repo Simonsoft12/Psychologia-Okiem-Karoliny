@@ -5104,6 +5104,25 @@ section {
       background: #fff;
     }
 
+    .btnKimJestemY{
+      font-weight: 600;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 8px 28px;
+      border-radius: 80px;
+      transition: 0.5s;
+    border: 2px solid #ffbb38;
+      color: #fff;
+      background: #ffc451;
+      box-shadow: 0 4px 15px 0 rgb(255 196 81 / 75%); 
+    }
+    
+    .btnKimJestemY:hover {
+      color:#f8b538;
+      border-color: #ffc451;
+      background: #fff;
+    }
     .btnDos {
       font-weight: 600;
       font-size: 16px;

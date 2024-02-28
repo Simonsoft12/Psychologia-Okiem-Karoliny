@@ -5077,6 +5077,112 @@ section {
       background: #fff;
     }
 
+    .max-width85{
+      max-width:85%;
+    }
+
+    /* CSS */
+.body-scroll-spy {
+  position: relative;
+}
+
+.fixed-top-header {
+  position: fixed;
+  top: 0;
+}
+
+.karSection1{
+  background: url('../img/portfolio/karolcia2.png') no-repeat bottom center;
+   background-size: contain;
+    height: 100% !important;
+}
+
+.full-width {
+  width: 100%;
+}
+.ml-40{
+  margin-left:40px
+}
+.section1buttons{
+  display: inline-block;padding-top: 20px
+}
+.cpax1{
+  margin-bottom:0!important;padding-top:14px
+}
+.section1lastp{
+  color: #333333;font-size:17px
+}
+.mt-50{
+  margin-top:50px;
+}
+.section1buttonsMobile{
+  display: inline-block;padding-top: 30px
+}
+.mr-30{
+  margin-right:30px
+}
+.section1ul{
+  margin-bottom:0!important;padding-top:14px
+}
+.opc{
+  margin:50px 0 15px 15px!important;
+  font-size:17px
+}
+.cpax{
+  display: inline-block;padding-top: 0
+}
+
+.margin-auto{
+  margin:auto;
+}
+.section1div1{
+  margin:0;padding:60px 0;padding-right:10%
+}
+.section1h3{
+  font-size:45px!important;line-height: 45px;margin-bottom:0
+}
+.margin-bottom0{
+  margin-bottom:0
+}
+.carfirstSectionText2{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #333333!important;
+  margin-top: 10px;
+}
+
+.nav-link-bold {
+  font-weight: 600 !important;
+}
+
+.absolute-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100% !important;
+}
+
+.privacy-policy-link {
+  display: block;
+  font-size: 14px;
+  color: #ffffff87 !important;
+  text-align: center;
+  margin: auto;
+}
+
+    .text-align-left{
+      text-align:left;
+    }
+
+    .animationCss{
+      animation: fadeInTitle 1s ease-in-out;
+      animation-delay: 200ms;
+    }
+
+    .animationCss2{
+      transition: all 0.4s;
+      cursor:pointer!important;
+    }
+
     .btnKimJestem {
       font-weight: 600;
       font-size: 16px;

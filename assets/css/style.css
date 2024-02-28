@@ -5097,6 +5097,20 @@ section {
     height: 100% !important;
 }
 
+.font-bolder{
+  font-weight:bolder;
+}
+.mt-10{
+  margin-top:10px;
+}
+.mt-15{
+  margin-top:15px;
+
+}
+.mb-0{
+  margin-bottom:0;
+}
+
 .full-width {
   width: 100%;
 }
@@ -5125,7 +5139,7 @@ section {
   margin-bottom:0!important;padding-top:14px
 }
 .opc{
-  margin:50px 0 15px 15px!important;
+  margin:45px 0 15px 15px!important;
   font-size:17px
 }
 .cpax{

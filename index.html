@@ -32,278 +32,141 @@
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
   
-<body data-spy="scroll" data-target="#navbar" style="position:relative;">
+<body class="body-scroll-spy" data-spy="scroll" data-target="#navbar">
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
+  <header id="header" class="fixed-top-header full-width">
     <div class="container d-flex align-items-center justify-content-lg-between">
-      <div id=logoHalfId class="logoHalf">
-        <a href="index.html" class="logo me-auto me-lg-0 ">
+      <div id="logoHalfId" class="logoHalf">
+        <a href="index.html" class="logo me-auto me-lg-0">
         <img src="assets/img/logo/1.png" alt="" class="img-fluid logoImg2"></a>
       </div>
-      <nav id="navbar" class="navbar order-last order-lg-0 bs-example-js-navbar-scrollspy">
+      <nav id="navbar" class="navbar order-last order-lg-0 navbar-scrollspy">
         <ul class="nav nav-pills">
-          <li><a class="nav-link scrollto minizoom navbarActive fakeClass bb bba" style="font-weight: 600!important;" href="#hero">Strona główna</a></li><!-- id="introjs" -->
-          <li><a class="nav-link scrollto minizoom linkcolor bb" href="#ctaX">O mnie</a></li>
-          <li><a class="nav-link scrollto minizoom linkcolor bb" href="#services">Oferta</a></li>
-          <li><a class="nav-link scrollto minizoom linkcolor bb" href="#kontakt">Kontakt</a></li>
-          <li><a class="nav-link scrollto minizoom linkcolor"></a></li>
-          <li><a class="nav-link scrollto minizoom linkcolor"></a></li>
-          <li class="m1t" style="position:absolute;bottom:0;width:100%!important;">
-            <a href="polityka.html" class="nav-link scrollto minizoom linkcolor ppmit" style="display:block;font-size: 14px;color:#ffffff87!important;text-align:center;margin:auto;">Polityka prywatności</a>
+          <li class="nav-pills-item"><a class="nav-link scrollto minizoom navbarActive fakeClass bb bba nav-link-bold" href="#hero">Strona główna</a></li><!-- id="introjs" -->
+          <li class="nav-pills-item"><a class="nav-link scrollto minizoom linkcolor bb" href="#ctaX">O mnie</a></li>
+          <li class="nav-pills-item"><a class="nav-link scrollto minizoom linkcolor bb" href="#services">Oferta</a></li>
+          <li class="nav-pills-item"><a class="nav-link scrollto minizoom linkcolor bb" href="#kontakt">Kontakt</a></li>
+          <li class="nav-pills-item"><a class="nav-link scrollto minizoom linkcolor"></a></li>
+          <li class="nav-pills-item"><a class="nav-link scrollto minizoom linkcolor"></a></li>
+          <li class="nav-pills-item m1t absolute-bottom">
+            <a href="polityka.html" class="nav-link scrollto minizoom linkcolor ppmit privacy-policy-link">Polityka prywatności</a>
           </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
     </div>
   </header>
-  <!-- ======= End Header ======= -->
-  
+  <!-- ======= End Header ======= -->  
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="align-items-center justify-content-center"  style="display:flex">
-      <div class="container aos-init aos-animate" style="max-width:85%">
+    <section id="hero" class="align-items-center justify-content-center flex">
+      <div class="container aos-init aos-animate max-width85">
         <div class="row justify-content-center aos-init aos-animate">
           <div class="col-lg-12">
-            <div style="text-align:left">
-              <h5 class="smallremMain" style="animation: fadeInTitle 1s ease-in-out;animation-delay: 200ms;" data-aos-delay="300"><br/>
+            <div class="text-align-left">
+              <h5 class="smallremMain animationCss" data-aos-delay="300"><br/>
                 <span class="subTitle"></span>
               </h5>
-              <!-- <button class="glow-on-hover mt-4 microzoom" type="button">Skontaktuj się</button> -->
             </div>
-            <a id="btnMains" href="#kontakt2" class="cta-btn2x btnContactFixed btn2xxx" style="transition: all 0.4s;cursor:pointer!important">Skontaktuj się</a>
+            <a id="btnMains" href="#kontakt2" class="animationCss2 cta-btn2x btnContactFixed btn2xxx">Skontaktuj się</a>
           </div>
           
       </div>
     </div>
     </section>
-    <!-- ======= End Hero ======= -->
-  
-    <main id="main">        
-        <section id="ctaX" class="paddingAll0" data-spy="scroll" data-target="#ctaX" data-offset="0">
-          <section id="cta" class="about bgwhite3 cta paddingAll0"> 
-        <div class="half-half-image-text2">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-12 col-lg-5" data-aos="fade-right" data-aos-delay="100">
-                <div class="img" style="background: url('assets/img/portfolio/karolcia2.png') no-repeat bottom center; background-size: contain; height: 100% !important;"></div>
+    <!-- ======= End Hero ======= -->  
+    <main id="main">  
+      <!-- ======= Cta Section ======= -->      
+      <section id="ctaX" class="paddingAll0" data-spy="scroll" data-target="#ctaX" data-offset="0">
+        <section id="cta" class="about bgwhite3 cta paddingAll0">         
+          <div class="half-half-image-text2">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12 col-lg-5" data-aos="fade-right" data-aos-delay="100">
+                  <div class="img karSection1"></div>
+                </div>
+                <div class="col-12 col-lg-7 content margin-auto">
+                  <div class="section1div1" data-aos="fade-left" data-aos-delay="100">
+                    <h3 class="karTitle2 prostuj22 dolewej dajmargt marginb30 fs1 smallrem section1h3">
+                      <span>Nazywam się</span><span class="spanBlue breakline1">Karolina Woźniczka</span>
+                    </h3>
+                    <p class="carfirstSectionText2 karTitle2span br1"> Jestem <b>psychologiem</b> z wieloletnim doświadczeniem w pracy<br/> z zawodnikami i drużynami sportowymi.</p>
+                    <div class="mt-40">    
+                      <ul class="font500 fontULs margin-bottom0">
+                          <li><i class="bi bi-check-lg colorBlue ptaszki"></i> 
+                            <p class="pxd">Moja praca opiera się na <span class="pura1">wiedzy, doświadczeniu i indywidualnym podejściu,</span>
+                              <br/> które pomaga sportowcom rozwijać się i osiągać swoje cele. 
+                            </p>
+                          </li>
+                      </ul>
+                      <ul style="margin-bottom:0">
+                        <li><i class="bi bi-check-lg colorBlue ptaszki"></i> 
+                          <p class="pxd">Korzystam z nowoczesnych metod i i innowacyjnych urządzeń,<br/> by zagwarantować skuteczność mojej pracy. </p>
+                        </li>
+                      </ul>             
+                        <div class="btnyMobMain1 ml-40">
+                          <span data-aos="zoom-in" data-aos-delay="100" class="pt20 section1buttons">
+                            <button  id="rozBtnKimjestem" onclick="ShowModalOmnieBig2();" role="button" aria-expanded="false"  data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="0" aria-label="Slide 1"
+                            aria-controls="collapseExampleKimjestem" href="omnie.html" class="btnKimJestem zeromargin cta-btn2xPadding btnoK3 mr-30">Kim jestem</button>
+                          </span>
+                          <span  data-aos="zoom-in" data-aos-delay="150" class="section1buttons mr-30">
+                            <button  id="rozBtnZakres" onclick="ShowModalZakresPracyBig();" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="5" 
+                            aria-controls="collapseExampleDoswiadczenie" href="omnie.html" class="btnDos zeromargin cta-btn2xPadding btnoD3">Obszary Pracy</button>
+                          </span>
+                          <span data-aos="zoom-in" data-aos-delay="200"class="section1buttons">
+                            <button id="rozBtnWyksztalcenie" onclick="ShowModalOmnieBig3();" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="7" aria-label="Slide 8"
+                            aria-controls="collapseExampleWyksztalcenie" class="cta-btn2x zeromargin cta-btn2xPadding btnoW3">Kompetencje</button>
+                          </span>
+                        </div>
+                        <div class="btnyMobMain2">
+                          <span data-aos="zoom-in" data-aos-delay="100" class="pt20 section1buttonsMobile">
+                            <button  id="rozBtnKimjestem" onclick="ShowModalOmnieBig();"  role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="0"  aria-label="Slide 1"
+                            aria-controls="collapseExampleKimjestem" href="omnie.html" class="btnKimJestem zeromargin cta-btn2xPadding bbmob">Kim jestem</button>
+                          </span>
+                          <span  data-aos="zoom-in" data-aos-delay="150" class="section1buttonsMobile">
+                            <button  id="rozBtnDoswiadczenie" onclick="ShowModalOmnieBig2();" role="button" aria-expanded="false"  data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="3" aria-label="Slide 4"
+                            aria-controls="collapseExampleDoswiadczenie" href="omnie.html" class="btnDos zeromargin cta-btn2xPadding bbmob">Obszary Pracy</button>
+                          </span>
+                          <span data-aos="zoom-in" data-aos-delay="200" class="section1buttonsMobile">
+                            <button id="rozBtnWyksztalcenie" onclick="ShowModalOmnieBig3();" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="5" aria-label="Slide 6"
+                            aria-controls="collapseExampleWyksztalcenie" class="cta-btn2x zeromargin cta-btn2xPadding bbmob">Kompetencje</button>
+                          </span>
+                        </div>  
+                      </div>    
+                      <ul class="centruj paddingtopten color444textinitial mt-30 section1ul">               
+                        <li class="zeropadding">
+                          <p class="spanBlue fontUL mleft00 centruj zeromarginleft dajmargbottom zasadap prostuj22 opc">
+                            Jeśli chcesz przetestować poziom swoich procesów poznawczych<br/> lub poszerzyć potencjał wpływu swojego mózgu:
+                        </p>  
+                          </p>
+                        </li>
+                      </ul>   
+                      <div class="btnyMobMain1 ml-40">
+                        <span data-aos="zoom-in" data-aos-delay="100" class="pt20 cpax">
+                          <button id="rozBtnTrening" onclick="ShowModalTrening();" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="8" aria-label="Slide 9"
+                          aria-controls="collapseExampleKimjestem" href="omnie.html" class="btnKimJestem zeromargin cta-btn2xPadding btnoK3" style="margin-right:30px">Trening Psychomotoryczny</button>
+                        </span>
+                        <span  data-aos="zoom-in" data-aos-delay="150" class="cpax">
+                          <button id="rozBtnBiofeedback" onclick="ShowModalBiofeedback();" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="9" aria-label="Slide 10"
+                          aria-controls="collapseExampleDoswiadczenie" href="omnie.html" class="btnDos zeromargin cta-btn2xPadding btnoD3">Biofeedback</button>
+                        </span>
+                      </div>
+                      <ul class="centruj paddingtopten color444textinitial mt-30 cpax1 mt-50">               
+                        <li class="zeropadding">
+                          <i class="bi bi-star-fill notabsolute stari"></i> 
+                          <p class="fontUL mleft00 centruj zeromarginleft dajmargbottom zasadap prostuj22 section1lastp">
+                            Jeśli szukasz wsparcia psychologicznego w sporcie, niezależnie od dyscypliny i poziomu<br/> 
+                            zaawansowania, sztuce czy życiu codziennym, jestem gotowa pomóc Ci osiagnąć <b>sukces.</b>
+                          </p>  
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-12 col-lg-7 content" style="margin: auto;">
-                
-         <div style="margin:0;padding:60px 0;padding-right:10%" data-aos="fade-left" data-aos-delay="100">
-          <h3 class="karTitle2 prostuj22 dolewej dajmargt marginb30 fs1 smallrem" style="font-size:45px!important;line-height: 45px;margin-bottom:0"><span>Nazywam się</span> <span class="spanBlue breakline1">Karolina Woźniczka</span>
-          </h3>
-          <p class="karTitle2span br1" style="    font-size: 1.5rem;
-          line-height: 2rem;color:#333333;
-          margin-top: 10px;"> Jestem <b>psychologiem</b> z wieloletnim doświadczeniem w pracy<br/> z zawodnikami i drużynami sportowymi.</p>
-            <div class="mt-40">    
-            <ul class="font500 fontULs" style="margin-bottom:0">
-                <li><i class="bi bi-check-lg colorBlue ptaszki"></i> <p class="pxd">Moja praca opiera się na <span class="pura1">wiedzy, doświadczeniu i indywidualnym podejściu,</span><br/> które pomaga sportowcom rozwijać się i osiągać swoje cele. </p></li>
-            </ul>
-            <ul style="margin-bottom:0">
-              <li><i class="bi bi-check-lg colorBlue ptaszki"></i> <p class="pxd">Korzystam z nowoczesnych metod i i innowacyjnych urządzeń,<br/> by zagwarantować skuteczność mojej pracy. </p></li>
-            </ul> 
-            
-            <div class="btnyMobMain1" style="margin-left:40px">
-              <span data-aos="zoom-in" data-aos-delay="100" class="pt20" style="display: inline-block;padding-top: 20px">
-                <button  id="rozBtnKimjestem" onclick="ShowModalOmnieBig2();" role="button" aria-expanded="false"  data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="0" aria-label="Slide 1"
-                aria-controls="collapseExampleKimjestem" href="omnie.html" class="btnKimJestem zeromargin cta-btn2xPadding btnoK3" style="margin-right:30px">Kim jestem</button>
-              </span>
-              <span  data-aos="zoom-in" data-aos-delay="150" style="display: inline-block;padding-top: 20px">
-                <button  id="rozBtnZakres" onclick="ShowModalZakresPracyBig();" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="5" 
-                aria-controls="collapseExampleDoswiadczenie" href="omnie.html" class="btnDos zeromargin cta-btn2xPadding btnoD3">Obszary Pracy</button>
-              </span>
-              <span data-aos="zoom-in" data-aos-delay="200" style="display: inline-block;padding-top: 20px">
-                <button id="rozBtnWyksztalcenie" onclick="ShowModalOmnieBig3();" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="7" aria-label="Slide 8"
-                aria-controls="collapseExampleWyksztalcenie" class="cta-btn2x zeromargin cta-btn2xPadding btnoW3" style="margin-left:30px">Kompetencje</button>
-              </span>
             </div>
-
-            <div class="btnyMobMain2">
-              <span data-aos="zoom-in" data-aos-delay="100" class="pt20" style="padding-top: 30px">
-                <button  id="rozBtnKimjestem" onclick="ShowModalOmnieBig();"  role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="0"  aria-label="Slide 1"
-                aria-controls="collapseExampleKimjestem" href="omnie.html" class="btnKimJestem zeromargin cta-btn2xPadding bbmob">Kim jestem</button>
-              </span>
-              <span  data-aos="zoom-in" data-aos-delay="150" style="display: inline-block;padding-top: 30px">
-                <button  id="rozBtnDoswiadczenie" onclick="ShowModalOmnieBig2();" role="button" aria-expanded="false"  data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="3" aria-label="Slide 4"
-                aria-controls="collapseExampleDoswiadczenie" href="omnie.html" class="btnDos zeromargin cta-btn2xPadding bbmob">Obszary Pracy</button>
-              </span>
-              <span data-aos="zoom-in" data-aos-delay="200" style="display: inline-block;padding-top: 30px">
-                <button  id="rozBtnWyksztalcenie" onclick="ShowModalOmnieBig3();" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="5" aria-label="Slide 6"
-                aria-controls="collapseExampleWyksztalcenie" class="cta-btn2x zeromargin cta-btn2xPadding bbmob">Kompetencje</button>
-              </span>
-            </div>  
-
-          </div>    
-          <ul class="centruj paddingtopten color444textinitial mt-30" style="margin-bottom:0!important;padding-top:14px">               
-            <li class="zeropadding">
-              <p class="spanBlue fontUL mleft00 centruj zeromarginleft dajmargbottom zasadap prostuj22"style="color: #333333;font-size:17px">
-                Jeśli chcesz przetestować poziom swoich procesów poznawczych lub poszerzyć potencjał wpływu swojego mózgu:
-            </p>  
-              </p>
-            </li>
-          </ul>   
-            <div class="btnyMobMain1" style="margin-left:40px">
-              <span data-aos="zoom-in" data-aos-delay="100" class="pt20" style="display: inline-block;padding-top: 0">
-                <button id="rozBtnTrening" onclick="ShowModalTrening();" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="8" aria-label="Slide 9"
-                aria-controls="collapseExampleKimjestem" href="omnie.html" class="btnKimJestem zeromargin cta-btn2xPadding btnoK3" style="margin-right:30px">Trening Psychomotoryczny</button>
-              </span>
-              <span  data-aos="zoom-in" data-aos-delay="150" style="display: inline-block;padding-top: 0">
-                <button id="rozBtnBiofeedback" onclick="ShowModalBiofeedback();" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="9" aria-label="Slide 10"
-                aria-controls="collapseExampleDoswiadczenie" href="omnie.html" class="btnDos zeromargin cta-btn2xPadding btnoD3">Biofeedback</button>
-              </span>
-            </div>
-            <ul class="centruj paddingtopten color444textinitial mt-30" style="margin-bottom:0!important;padding-top:14px">               
-              <li class="zeropadding">
-                <i class="bi bi-star-fill notabsolute stari"></i> 
-                <p class="fontUL mleft00 centruj zeromarginleft dajmargbottom zasadap prostuj22"style="color: #333333;font-size:17px">
-                  Jeśli szukasz wsparcia psychologicznego w sporcie, niezależnie od dyscypliny i poziomu zaawansowania,
-                   sztuce czy życiu codziennym, jestem gotowa pomóc Ci osiagnąć <b>sukces.</b>
-              </p>  
-                </p>
-              </li>
-            </ul>
-            
-          </div>
-          </div>
-        </div>
-      </div >
-        </div>
           </section>
-          </section>
-            <!-- <ul style="margin-bottom:0;list-style-type: none;padding:0">
-              <li class="lisup">
-                <button  id="rozBtnDoswiadczenie" onclick="ShowModalOmnieBig2();" role="button" aria-expanded="false"  data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="0" aria-label="Slide 1"
-                    aria-controls="collapseExampleDoswiadczenie" href="omnie.html" class="btnDos zeromargin cta-btn2xPadding btnoD3" style="padding: 0;width:301.88px;border-radius: 60px!important; height:50px;max-width: 219.47px;min-width: 265.47px;">Kim jestem</button>
-                <p class="pxd" style="margin: 0;">Korzystam z nowoczesnych metod i i innowacyjnych urządzeń, by zagwarantować skuteczność mojej pracy.</p></li>
-            </ul>   
-            <ul class="font500 fontULs" style="margin-bottom:0;list-style-type: none;padding:0">
-              <li class="lisup">
-                <button id="rozBtnZakres" onclick="ShowModalZakresPracyBig();" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="5" 
-                aria-label="Slide 6" aria-controls="collapseExampleZakres" href="omnie.html" class="btnDos zeromargin cta-btn2xPadding btnoD3" style="padding: 0;width:301.88px;border-radius: 60px!important; height:50px;max-width: 219.47px;min-width: 265.47px;">Obszary pracy</button>
-                <p style="margin: 0;margin-left:14px;color: #444444e6!important;
-                font-weight: 600!important;">Moja praca opiera się na <span class="pura1">wiedzy, doświadczeniu i indywidualnym podejściu,</span> które pomaga sportowcom rozwijać się i osiągać swoje cele.</p>
-              </li>
-            </ul>   
-            <ul style="list-style-type: none;padding:0">
-              <li class="lisup">
-                <button  id="rozBtnWyksztalcenie" onclick="ShowModalOmnieBig3();" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="7" aria-label="Slide 8"
-                    aria-controls="collapseExampleWyksztalcenie" class="btnDos zeromargin cta-btn2xPadding btnoD3" style="padding: 0;width:301.88px;border-radius: 60px!important; height:50px;max-width: 219.47px;min-width: 265.47px;">Kompetencje</button>
-                <p class="pxd" style="margin: 0;color:#009eec!important">Jeśli chcesz przetestować poziom swoich procesów poznawczych lub poszerzyć potencjał wpływu swojego mózgu umów się na trening psychomotoryczny.</p></li>
-            </ul>           
-           
-            <ul style="list-style-type: none;padding:0">
-              <li class="lisup">
-                <button  id="rozBtnBiofeedback" onclick="ShowModalBiofeedback();" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="9" aria-label="Slide 10"
-                    aria-controls="collapseExampleBiofeedback" class="cta-btn232x  zeromargin cta-btn2xPadding btnoD3" style="padding: 0;min-width: 265.47px;border-radius: 60px!important;height:50px">Biofeedback</button>
-                <p class="pxd" style="margin: 0;color:#21e3ca!important">Jeśli chcesz przetestować poziom swoich procesów poznawczych lub poszerzyć potencjał wpływu swojego mózgu umów się na trening psychomotoryczny.</p></li>
-            </ul>  -->
-            <!-- <ul style="list-style-type: none;padding:0">
-              <li class="lisup">
-                <button class="btn-contact56 gradient22 aos-init aos-animate" onclick="scrollToContact()" data-aos="zoom-in">Skontaktuj się</button>
-                <p class="karTitle2span text-center" style="color: #fbb936;font-size:20px;font-weight:700">
-                  Skontaktuj się ze mną, aby rozpocząć pracę nad osiągnięciem swoich <span>sportowych marzeń.</span>
-                </p>
-              </ul>
-            -->          
-        
-        <!-- <section style="padding:0!important;height:350px">
-          <div class="container-fluid" style="height: 100%;">
-            <div class="row align-items-stretch justify-content-center " style="height: 100%;">
-                <div class="col-4 d-flex flex-column justify-content-center align-items-center " style="cursor:pointer;background: url('assets/img/ps2.png') no-repeat right bottom;background-size:cover;background-position-y:center">
-                    <h2 class="text-center colorWhite" style="font-weight: 700;font-size: 29px;">Zakres Pracy</h2>
-                    <p class="text-center colorWhite mt-10">Moja praca opiera się na <span class="pura1">wiedzy, doświadczeniu i indywidualnym podejściu,</span> które pomaga sportowcom rozwijać się i osiągać swoje cele.</p>
-                </div>
-                <div class="col-4 d-flex flex-column justify-content-center align-items-center" style="cursor:pointer;background: url('assets/img/portfolio/2gory2.png') no-repeat right bottom;background-size:cover;background-position-y:center">
-                    <h2 class="text-center colorWhite" style="font-weight: 700;font-size: 29px;">Kim Jestem</h2>
-                    <p class="pxd text-center mt-10" style="color:#fff!important">Korzystam z nowoczesnych metod i innowacyjnych urządzeń, by zagwarantować skuteczność mojej pracy.</p>
-                </div>
-                <div class="col-4 d-flex flex-column justify-content-center align-items-center" style="cursor:pointer;background: url('assets/img/exp2.png') no-repeat right bottom;background-size:cover;background-position-y:center">
-                    <h2 class="text-center colorWhite" style="font-weight: 700;font-size: 29px;">Wykształcenie/Doświadczenie</h2>
-                    <p class="text-center colorWhite mt-10">Jeśli chcesz przetestować poziom swoich procesów poznawczych lub poszerzyć potencjał wpływu swojego mózgu umów się na</p>
-                </div>
-            </div>
-        </div>
-        
-        </section> -->
-        <!-- ======= END Cta Section ======= -->   
-      <!-- ======= Cta Section ======= -->
-      <!-- <section id="ctaX" class="paddingAll0" style="padding-top:60px;padding-bottom: 60px;" data-spy="scroll" data-target="#ctaX" data-offset="0">
-        <section id="cta" class="about bgwhite3 cta paddingAll0">
-          <div class="container superpadd" style="max-width:100%">
-            <div class="row"> 
-              <div class=" col-lg-8 offset-md-1 pt-lg-0 order-2 order-lg-2 content klasa klasaDiv" >
-                <div style="margin:0;padding:0" data-aos="fade-left" data-aos-delay="100">
-                  <p class="text-center" style="color: #333333;font-weight: 600;font-size:36px;margin-bottom:0!important">
-                    jestem
-                  </p>
-                  <h3 class="karTitle2 text-center prostuj22 dolewej dajmargt mb10 fs1 smallrem"><span class="spanBlue breakline1">PSYCHOLOGIEM SPORTOWYM</span>
-                  </h3>
-                  <p class="karTitle2span br1 text-center" style="color: #333333;font-size:21px">
-                    z wieloletnim doświadczeniem w pracy z zawodnikami i drużynami sportowymi.</p>
-                    <p class="karTitle2span br1 mt-40" style="color: #333333;font-size:17px">
-                        Jesli szukasz wsparcia psycholigcznego w sporcie, niezaleznie od dyscypliny i poziomu zaawansowania,
-                         sztuce czy zyciu codziennym, jestem gotowa pomoc Ci osiagnac <b>sukces.</b></p>
-                      <ul class="font500 fontULs" style="margin-bottom:0">
-                        <li><i class="bi bi-check-lg colorBlue ptaszki"></i> <p class="pxd">Moja praca opiera się na <span class="pura1">wiedzy, doświadczeniu i indywidualnym podejściu,</span> które pomaga sportowcom rozwijać się i osiągać swoje cele. </p></li>
-                    </ul>
-                    <ul style="margin-bottom:0">
-                      <li><i class="bi bi-check-lg colorBlue ptaszki"></i> <p class="pxd">Korzystam z nowoczesnych metod i i innowacyjnych urządzeń, by zagwarantować skuteczność mojej pracy. </p></li>
-                    </ul>                   
-                    <ul>
-                      <li><i class="bi bi-check-lg colorBlue ptaszki"></i> <p class="pxd">Jeśli chcesz przetestować poziom swoich procesów poznawczych lub poszerzyć potencjał wpływu swojego mózgu umów się na </p></li>
-                    </ul> 
-                </div>
-                
-                <div class="btnyMobMain1 text-center" style="display: flex;justify-content: space-evenly;">
-                  <span data-aos="zoom-in" data-aos-delay="100" class="pt20" style="display: inline-block;padding-top: 10px">
-                    <button  id="rozBtnKimjestem" onclick="ShowModalOmnieBig();"  role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="0"  aria-label="Slide 1"
-                    aria-controls="collapseExampleKimjestem" href="omnie.html" class="btnKimJestem zeromargin cta-btn2xPadding btnoK3" style="margin-right:30px">Kim jestem</button>
-                  </span>
-                  <span  data-aos="zoom-in" data-aos-delay="150" style="display: inline-block;padding-top: 10px">
-                    <button  id="rozBtnDoswiadczenie" onclick="ShowModalOmnieBig2();" role="button" aria-expanded="false"  data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="3" aria-label="Slide 4"
-                    aria-controls="collapseExampleDoswiadczenie" href="omnie.html" class="btnDos zeromargin cta-btn2xPadding btnoD3">Doświadczenie</button>
-                  </span>
-                  <span data-aos="zoom-in" data-aos-delay="200" style="display: inline-block;padding-top: 10px">
-                    <button  id="rozBtnWyksztalcenie" onclick="ShowModalOmnieBig3();" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="6" aria-label="Slide 7"
-                    aria-controls="collapseExampleWyksztalcenie" class="cta-btn2x zeromargin cta-btn2xPadding btnoW3" style="margin-left:30px">Wykształcenie</button>
-                  </span>
-                </div>
-
-                <div class="btnyMobMain2 text-center" >
-                  <span data-aos="zoom-in" data-aos-delay="100" class="pt20" style="padding-top: 10px">
-                    <button  id="rozBtnKimjestem" onclick="ShowModalOmnieBig();"  role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="0"  aria-label="Slide 1"
-                    aria-controls="collapseExampleKimjestem" href="omnie.html" class="btnKimJestem zeromargin cta-btn2xPadding bbmob">Kim jestem</button>
-                  </span>
-                  <span  data-aos="zoom-in" data-aos-delay="150" style="display: inline-block;padding-top: 10px">
-                    <button  id="rozBtnDoswiadczenie" onclick="ShowModalOmnieBig2();" role="button" aria-expanded="false"  data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="3" aria-label="Slide 4"
-                    aria-controls="collapseExampleDoswiadczenie" href="omnie.html" class="btnDos zeromargin cta-btn2xPadding bbmob">Doświadczenie</button>
-                  </span>
-                  <span data-aos="zoom-in" data-aos-delay="200" style="display: inline-block;padding-top: 10px">
-                    <button  id="rozBtnWyksztalcenie" onclick="ShowModalOmnieBig3();" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="6" aria-label="Slide 7"
-                    aria-controls="collapseExampleWyksztalcenie" class="cta-btn2x zeromargin cta-btn2xPadding bbmob">Wykształcenie</button>
-                  </span>
-                </div>
-
-                <div class="mt-50" data-aos="fade-left" data-aos-delay="100">
-                  <p class="karTitle2span text-center" style="color: #edb13c;font-size:19px;font-weight:700">
-                    Skontaktuj się ze mną, aby rozpocząć pracę nad osiągnięciem swoich <span>sportowych marzeń.</span>
-                  </p>
-                </div>
-                <div class="text-center" data-aos="fade-left" data-aos-delay="100">
-                <spandata-aos="zoom-in" data-aos-delay="200" style="display: inline-block;padding-top: 15px">
-                  <button id="rozBtnWyksztalcenie" onclick="scrollToContact()" role="button" aria-expanded="false" data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="6" aria-label="Slide 7"
-                  aria-controls="collapseExampleWyksztalcenie" class="cta-btn24x zeromargin cta-btn2xPadding bbmob" style="width:220px!important">Umów się</button>
-                </span>
-              </div>
-              </div>
-              <div class="div-wrapper col-lg-4 order-1 order-lg-1 prostuj" style="margin:auto; position: relative; overflow: hidden;" data-aos="fade-right" data-aos-delay="100">
-                <img src="assets/img/portfolio/karolcia2.png" style="position: absolute; bottom: 0; width: 100%; height: auto !important; max-height: 100% !important;" class="maxwidth100 photoClass superBorderCircle image1" alt="Psycholog Sportu Karolina Woźniczka" title="Psycholog Sportu Karolina Woźniczka">   
-                <img src="assets/img/portfolio/karwblue3.png" class="maxwidth100 photoClass  superBorderCircle image2" alt="Psycholog Sportu Karolina Woźniczka" title="Psycholog Sportu Karolina Woźniczka">
-              </div>       
-            </div>
-          </div>
-        </section> -->
+        </section>          
         <!-- ======= END Cta Section ======= -->
-
         <!-- ======= Omnie Section ======= -->
         <div id="OmnieBigSlider" class="container-fluid" style="display:none;scroll-margin:79px" data-spy="scroll" data-target="#cta" data-offset="0">
           <div class="row">

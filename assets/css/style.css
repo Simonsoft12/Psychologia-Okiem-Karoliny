@@ -4936,6 +4936,11 @@ section {
   background:linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/paralax/paralaxsmall.jpg) fixed center center;
   background-size: cover;
 }
+.tlaOmnieTrening{
+  /* background-image: linear-gradient(to right, rgb(37, 170, 225),   rgb(63, 134, 237)); */
+  background:linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/ps.jpg) fixed center center;
+  background-size: cover;
+}
 .ciastkoCta{
   background: linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url("../img/paralax/paralaxsmall.jpg") fixed center center;
 }
@@ -5495,7 +5500,14 @@ section {
   width: 115px;
   border-radius: 5px;
 }
-
+.bottomBorderT::after {
+  content: "";
+  display: block;
+  width: 10%;
+  padding-top: 12px;
+  border-bottom: 3px solid #FFC451;
+  width: 160px;
+}
 
 
 .bottomBorder::after {

@@ -1457,7 +1457,7 @@ width: 70%;
   width:100%!important;
   height:100%!important;
   background-size: cover!important;
-  background:  url('../img/ofertaServices/sztab2Small.jpg') center;
+  background:  url('../img/ofertaServices/sztab2small.jpg') center;
 }
 
 .ofertabgsztab:hover .hoferta{
@@ -4939,6 +4939,11 @@ section {
 .tlaOmnieTrening{
   /* background-image: linear-gradient(to right, rgb(37, 170, 225),   rgb(63, 134, 237)); */
   background:linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/ps.jpg) fixed center center;
+  background-size: cover;
+}
+.tlaOmnieBio{
+  /* background-image: linear-gradient(to right, rgb(37, 170, 225),   rgb(63, 134, 237)); */
+  background:linear-gradient(rgba(0, 140, 253, 0.56), rgba(0, 140, 253,0.6)), url(../img/ps33.webp) fixed center center;
   background-size: cover;
 }
 .ciastkoCta{

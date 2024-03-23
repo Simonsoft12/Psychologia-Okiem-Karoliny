@@ -5169,6 +5169,17 @@ section {
 .cpax1{
   margin-bottom:0!important;padding-top:14px
 }
+.arrow-down{
+  position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 20px;
+    font-size: 60px;
+    color: #ffc451;
+}
 .section1lastp{
   color: #333333;font-size:17px
 }

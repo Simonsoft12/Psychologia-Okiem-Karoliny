@@ -1009,6 +1009,8 @@ width: 70%;
   transform: scale(1.1); 
 }
 
+
+
 .minizoom {
 
   -webkit-transition: transform .1s;
@@ -1091,6 +1093,23 @@ width: 70%;
     background-position: 0 0;
   }
 }
+.iconsnav{
+  font-size: 20px!important;
+  color:#fff;
+}
+.minizoom313 {
+
+  -webkit-transition: transform .1s;
+  -moz-transition: transform .1s;
+  -ms-transition: transform .1s;
+  -o-transition: transform .1s;
+  transition: transform .1s;
+}
+
+.minizoom313:hover {
+  color: #ffc451!important;
+}
+
 
 .minizoom:hover {
   -ms-transform: scale(1.04); /* IE 9 */
